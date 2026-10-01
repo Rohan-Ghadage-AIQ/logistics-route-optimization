@@ -66,12 +66,19 @@ Our system pairs both engines in their ideal roles:
 
 #### Haversine Geodesic Metric (Spatial Reference)
 For coordinates $(\phi_1, \lambda_1)$ and $(\phi_2, \lambda_2)$ in radians with Earth radius $R = 6371\text{ km}$:
+
 $$\Delta \phi = \phi_2 - \phi_1, \quad \Delta \lambda = \lambda_2 - \lambda_1$$
+
 $$a = \sin^2\left(\frac{\Delta \phi}{2}\right) + \cos(\phi_1)\cos(\phi_2)\sin^2\left(\frac{\Delta \lambda}{2}\right)$$
+
 $$d_{\text{haversine}}(i, j) = 2 R \arcsin\left(\sqrt{a}\right)$$
 
 #### Real Road Network Graph Metric (Valhalla)
-$$d_{ij} = \sum_{e \in \mathcal{P}^*(i, j)} \text{length}(e), \quad \tau_{ij} = \sum_{e \in \mathcal{P}^*(i, j)} \frac{\text{length}(e)}{v(e, \text{traffic})}$$
+For directed road network graph $G = (V_{\text{road}}, E_{\text{road}})$, where $\mathcal{P}_{ij}^{*}$ is the optimal shortest/fastest road path from node $i$ to node $j$:
+
+$$d_{ij} = \sum_{e \in \mathcal{P}_{ij}^{*}} \text{length}(e)$$
+
+$$\tau_{ij} = \sum_{e \in \mathcal{P}_{ij}^{*}} \frac{\text{length}(e)}{v(e, \text{traffic})}$$
 
 ---
 

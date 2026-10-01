@@ -14,15 +14,21 @@ The routing engine solves the **Capacitated Vehicle Routing Problem with Time Wi
 
 #### A. Geodesic Metric (Haversine Formula — Used for Spatial Clustering & Validation)
 For two coordinates $(\phi_1, \lambda_1)$ and $(\phi_2, \lambda_2)$ in radians with Earth radius $R = 6371.0\text{ km}$:
+
 $$\Delta \phi = \phi_2 - \phi_1, \quad \Delta \lambda = \lambda_2 - \lambda_1$$
+
 $$a = \sin^2\left(\frac{\Delta \phi}{2}\right) + \cos(\phi_1)\cos(\phi_2)\sin^2\left(\frac{\Delta \lambda}{2}\right)$$
+
 $$d_{\text{haversine}}(i, j) = 2 R \cdot \arcsin\left(\sqrt{a}\right)$$
 
 #### B. Road Network Metric (Valhalla OpenStreetMap Topology Graph)
 Real road travel does not follow straight lines. The distance $d_{ij}$ and driving duration $\tau_{ij}$ are evaluated over directed road network graph $G = (V_{\text{road}}, E_{\text{road}})$ using dynamic costing models:
-$$d_{ij} = \sum_{e \in \mathcal{P}^*(i, j)} \text{length}(e)$$
-$$\tau_{ij} = \sum_{e \in \mathcal{P}^*(i, j)} \frac{\text{length}(e)}{v(e, \text{traffic})}$$
-where $\mathcal{P}^*(i, j)$ is the time-optimal path calculated by Valhalla's bidirectional A* algorithm.
+
+$$d_{ij} = \sum_{e \in \mathcal{P}_{ij}^{*}} \text{length}(e)$$
+
+$$\tau_{ij} = \sum_{e \in \mathcal{P}_{ij}^{*}} \frac{\text{length}(e)}{v(e, \text{traffic})}$$
+
+where $\mathcal{P}_{ij}^{*}$ is the time-optimal path calculated by Valhalla's bidirectional A* algorithm.
 
 ---
 
