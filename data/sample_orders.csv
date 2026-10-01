@@ -1,0 +1,21 @@
+id,address,parcel_weight,service_time,window_start,window_end
+1,"Wing-D, Station Rd, Bhayandar, Chandulal Park, Bhayandar West, Mira Bhayandar, Maharashtra 401101",25,15,06:00:00,07:42:00
+2,"Dr Keshav Baliram Hedgewar Rd, Bhayandar, Chandmal Nagar, Bhayandar West, Mira Bhayandar, Maharashtra 401101",10,10,14:00:00,16:30:00
+3,"Ravi Raj Industries, Gala No. 33, Behind Dharam Kanta, Near Janseva Shakari Bank, Phatak Road, Bhayander East, Thane, Maharashtra 401105",22,12,13:00:00,15:11:00
+4,"Kasturi Industrial Estate, V/8, G-1, Bhayandar, Sonam Sagar, Indira Nagar, Bhayandar East, Mumbai, Mira Bhayandar, Maharashtra 401105",12,18,13:30:00,15:28:00
+5,"Road, Golden Nest Circle, Phase 9, silent park, Bhayandar East, Mira Bhayandar, Mumbai, Maharashtra 401105",18,15,10:00:00,12:00:00
+6,"B11, Road, Medetiya Nagar, Queens Park, Mira Road East, Mumbai, Mira Bhayandar, Maharashtra 401105",16,10,07:30:00,09:29:00
+7,"302, Kanakia Township, Gaurav City, Mira Road East, Mira Bhayandar, Maharashtra 401107",14,12,11:00:00,13:40:00
+8,"below Wilfred School, near TVS Showroom, Sanghvi Nagar, Pleasant Park, Mira Road East, Mumbai, Mira Bhayandar, Maharashtra 401107",15,18,18:30:00,20:58:00
+9,"8/102, Shanti Gardens Rd, Sector 2, Gaurav Galaxy, Mira Road East, Mira Bhayandar, Maharashtra 401107",8,15,07:00:00,08:51:00
+10,"Swagat Inn,Mira Road East, Mira Bhayandar, Maharashtra 401107",19,10,07:00:00,08:57:00
+11,"A-WING, Blue Bell Society, Avdhut Nagar, Dahisar East, Mumbai, Maharashtra 400068",25,12,07:00:00,08:49:00
+12,"Kwini House, Mosquita Nagar, A2, Hari Shankar Joshi Rd, Krishna Colony, Dahisar East, Mumbai, Maharashtra 400068",10,18,14:00:00,16:44:00
+13,"Mhatre Wadi, Dahisar West, Mumbai, Maharashtra 400068",22,15,10:00:00,12:00:00
+14,"6VX4+QFR, Santoshi Mata Rd, Jai Yogeshwari, Mandapeshwar, Dahisar West, Mumbai, Maharashtra 400068",12,10,10:30:00,12:25:00
+15,"A6-18, LIC Rd Number 2, Aary Colony, LIC Colony, Borivali West, Mumbai, Maharashtra 400103",18,12,13:00:00,15:47:00
+16,"MHADA Bldg, 2-A, Gorai 3, Borivali West, Mumbai, Maharashtra 400091",16,18,14:00:00,16:22:00
+17,"Samabhav Society, Gorai 2, Borivali, Mumbai, Maharashtra 400091",14,15,14:30:00,16:40:00
+18,"GALA NO 23,24 & 25 SAI COMPOUND CTS NO 149,, SURVEY NO 29 HISSA NO 13 LAXMI NAGAR CHARKOP VILLAGE, Mumbai, Maharashtra 400067",15,10,15:00:00,17:02:00
+19,"Gate Number 8, 52, 409, Mhada Rd, opposite Bus Depot, Gaikwad Nagar, Malvani, Malad West, Mumbai, Maharashtra 400095",8,12,10:30:00,12:31:00
+20,"23, Janta Colony, Valnai, Malad West, Mumbai, Maharashtra 400064",19,15,11:00:00,13:20:00
